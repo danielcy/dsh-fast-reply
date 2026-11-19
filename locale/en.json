@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "title": "Quick replies",
+    "description": "Insert reusable text and skill references from the composer. A trigger button opens a panel of saved replies; entries are stored in the browser and can be added, edited, and removed without leaving the page.",
+    "detail": "docs/DETAIL.md"
+  },
+  "button": "Quick replies",
+  "manage": "Manage",
+  "add": "New quick reply",
+  "edit": "Edit",
+  "remove": "Delete",
+  "save": "Save",
+  "cancel": "Cancel",
+  "name": "Name",
+  "content": "Content",
+  "empty": "No quick replies yet",
+  "hint": "Text and skill references, e.g. @dsh-doc",
+  "deleteConfirm": "Delete this quick reply?"
+}

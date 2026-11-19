@@ -1,0 +1,56 @@
+{
+  "name": "dsh-fast-reply",
+  "version": "1.0.0",
+  "description": "Quick replies for DeepSeek Harness: insert reusable text and skill references from the composer.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "quick-replies",
+    "snippets",
+    "composer"
+  ],
+  "license": "MIT",
+  "author": "danielcy",
+  "homepage": "https://github.com/danielcy/dsh-fast-reply#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcy/dsh-fast-reply.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielcy/dsh-fast-reply/issues"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "dsh": "^0.2.2-rc.4"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

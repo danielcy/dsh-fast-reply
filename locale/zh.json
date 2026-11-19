@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "title": "快捷回复",
+    "description": "在输入框中快速插入可复用的文本和技能引用。点击触发按钮即可打开快捷回复面板；回复保存在浏览器本地，可在页面内直接新增、编辑和删除。",
+    "detail": "docs/DETAIL.zh.md"
+  },
+  "button": "快捷回复",
+  "manage": "管理",
+  "add": "新增快捷回复",
+  "edit": "编辑",
+  "remove": "删除",
+  "save": "保存",
+  "cancel": "取消",
+  "name": "名称",
+  "content": "内容",
+  "empty": "还没有快捷回复",
+  "hint": "支持文本与技能引用，例如 @dsh-doc",
+  "deleteConfirm": "确定删除这条快捷回复吗？"
+}
